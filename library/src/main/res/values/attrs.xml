@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <declare-styleable name="TextSlideButton">
+            <attr name="TextSlideButton_margin" format="integer"/>
+            <attr name="TextSlideButton_RectSpeed" format="integer"/>
+            <attr name="TextSlideButton_OutRectColor" format="color"/>
+            <attr name="TextSlideButton_chooseRectColor" format="color"/>
+            <attr name="TextSlideButton_ChooseTextColor" format="color"/>
+            <attr name="TextSlideButton_UnChooseTextColor" format="color"/>
+            <attr name="TextSlideButton_ChooseTextSize" format="integer"/>
+            <attr name="TextSlideButton_UnChooseTextSize" format="integer"/>
+        </declare-styleable>
+
+</resources>
