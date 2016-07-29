@@ -532,6 +532,7 @@ public class TextSlideButton extends View {
         return true;
     }
 
+    private int sleepTime = 25;
     /**
      * 滑到左测
      */
@@ -543,7 +544,7 @@ public class TextSlideButton extends View {
             public void run() {
                 while (true) {
                     try {
-                        TimeUnit.MILLISECONDS.sleep(50);
+                        TimeUnit.MILLISECONDS.sleep(sleepTime);
                         mChangeX -= mRectSpeed;
                         if (mChangeX <= increase) {
 
@@ -574,7 +575,7 @@ public class TextSlideButton extends View {
             public void run() {
                 while (true) {
                     try {
-                        TimeUnit.MILLISECONDS.sleep(50);
+                        TimeUnit.MILLISECONDS.sleep(sleepTime);
                         mChangeX += mRectSpeed;
                         if (mChangeX >= increase) {
                             mChangeX = increase;
